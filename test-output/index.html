@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1328844907\testng-customsuite.xml</span>
+                    <span>C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--737010568\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginPageWithMultipleUsersTest(locked_out_user, secret_sauce)">verifyLoginPageWithMultipleUsersTest(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,27 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginPageWithMultipleUsersTest(standard_user, secret_sauce)">verifyLoginPageWithMultipleUsersTest(standard_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginPageWithMultipleUsersTest(problem_user, secret_sauce)">verifyLoginPageWithMultipleUsersTest(problem_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginPageWithMultipleUsersTest(performance_glitch_user, secret_sauce)">verifyLoginPageWithMultipleUsersTest(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginPageWithMultipleUsersTest(error_user, secret_sauce)">verifyLoginPageWithMultipleUsersTest(error_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginPageWithMultipleUsersTest(visual_user, secret_sauce)">verifyLoginPageWithMultipleUsersTest(visual_user, secret_sauce)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testcases.CheckoutStepTwoTest" class="method navigator-link" hash-for-method="verifySubtoTotalabelTest">verifySubtoTotalabelTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -152,101 +118,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageWithMultipleUsersTest(locked_out_user, secret_sauce)">
-                  </a> <!-- verifyLoginPageWithMultipleUsersTest(locked_out_user, secret_sauce) -->
-                  <span class="method-name">verifyLoginPageWithMultipleUsersTest</span>
-                  <span class="parameters">(locked_out_user,secret_sauce)</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at testcases.LoginPageTest.verifyLoginPageWithMultipleUsersTest(LoginPageTest.java:70)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.LoginPageTest</span>
+              <span class="class-name">testcases.CheckoutStepTwoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginPageWithMultipleUsersTest(standard_user, secret_sauce)">
-                  </a> <!-- verifyLoginPageWithMultipleUsersTest(standard_user, secret_sauce) -->
-                  <span class="method-name">verifyLoginPageWithMultipleUsersTest</span>
-                  <span class="parameters">(standard_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageWithMultipleUsersTest(problem_user, secret_sauce)">
-                  </a> <!-- verifyLoginPageWithMultipleUsersTest(problem_user, secret_sauce) -->
-                  <span class="method-name">verifyLoginPageWithMultipleUsersTest</span>
-                  <span class="parameters">(problem_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageWithMultipleUsersTest(performance_glitch_user, secret_sauce)">
-                  </a> <!-- verifyLoginPageWithMultipleUsersTest(performance_glitch_user, secret_sauce) -->
-                  <span class="method-name">verifyLoginPageWithMultipleUsersTest</span>
-                  <span class="parameters">(performance_glitch_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageWithMultipleUsersTest(error_user, secret_sauce)">
-                  </a> <!-- verifyLoginPageWithMultipleUsersTest(error_user, secret_sauce) -->
-                  <span class="method-name">verifyLoginPageWithMultipleUsersTest</span>
-                  <span class="parameters">(error_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageWithMultipleUsersTest(visual_user, secret_sauce)">
-                  </a> <!-- verifyLoginPageWithMultipleUsersTest(visual_user, secret_sauce) -->
-                  <span class="method-name">verifyLoginPageWithMultipleUsersTest</span>
-                  <span class="parameters">(visual_user,secret_sauce)</span>
+                  <a name="verifySubtoTotalabelTest">
+                  </a> <!-- verifySubtoTotalabelTest -->
+                  <span class="method-name">verifySubtoTotalabelTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -254,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1328844907\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--737010568\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -263,11 +145,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.LoginPageTest&quot;&gt;
+      &lt;class name=&quot;testcases.CheckoutStepTwoTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;verifyLoginPageWithMultipleUsersTest&quot;/&gt;
+          &lt;include name=&quot;verifySubtoTotalabelTest&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testcases.LoginPageTest --&gt;
+      &lt;/class&gt; &lt;!-- testcases.CheckoutStepTwoTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -307,36 +189,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLoginPageWithMultipleUsersTest')
-data.setCell(0, 2, 'testcases.LoginPageTest')
-data.setCell(0, 3, 6752);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyLoginPageWithMultipleUsersTest')
-data.setCell(1, 2, 'testcases.LoginPageTest')
-data.setCell(1, 3, 1380);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLoginPageWithMultipleUsersTest')
-data.setCell(2, 2, 'testcases.LoginPageTest')
-data.setCell(2, 3, 854);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyLoginPageWithMultipleUsersTest')
-data.setCell(3, 2, 'testcases.LoginPageTest')
-data.setCell(3, 3, 711);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyLoginPageWithMultipleUsersTest')
-data.setCell(4, 2, 'testcases.LoginPageTest')
-data.setCell(4, 3, 467);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyLoginPageWithMultipleUsersTest')
-data.setCell(5, 2, 'testcases.LoginPageTest')
-data.setCell(5, 3, 453);
+data.setCell(0, 1, 'verifySubtoTotalabelTest')
+data.setCell(0, 2, 'testcases.CheckoutStepTwoTest')
+data.setCell(0, 3, 52);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 52 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -347,21 +209,45 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySubtoTotalabelTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Item total: $129.94 is present= Item total: $129.94</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">12 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcases.LoginPageTest</span>
+              <span class="ignored-class-name">testcases.CheckoutStepTwoTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyTitleOfApplicationTest</span>
+                <span class="ignored-method-name">verifyCancelBtnTest</span>
                 <br/>
-                <span class="ignored-method-name">verifyURLOfApplicationTest</span>
+                <span class="ignored-method-name">verifyfinishBtnTest</span>
                 <br/>
-                <span class="ignored-method-name">verifyLoginPageTest</span>
+                <span class="ignored-method-name">verifyPaymentValueTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyFinishBtnTxtTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyPaymentInformationTxtTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyshippingValueTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyCancelBtnTxtTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyTotalLabelTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyTotalPriceTxtTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyTaxLabelTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyCheckoutOverviewTxtTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyshippingInformationTxtTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -373,80 +259,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.CheckoutStepTwoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginPageWithMultipleUsersTest(standard_user, secret_sauce)</span>
-                <span class="method-start">4481 ms</span>
+                <span class="method-name">verifySubtoTotalabelTest</span>
+                <span class="method-start">13360 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">closeBrowser([TestResult name=verifyLoginPageWithMultipleUsersTest status=SUCCESS method=LoginPageTest.verifyLogi...)</span>
-                <span class="method-start">5198 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">5557 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyLoginPageWithMultipleUsersTest(locked_out_user, secret_sauce)</span>
-                <span class="method-start">9867 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser([TestResult name=verifyLoginPageWithMultipleUsersTest status=FAILURE method=LoginPageTest.verifyLogi...)</span>
-                <span class="method-start">10325 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">10636 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginPageWithMultipleUsersTest(problem_user, secret_sauce)</span>
-                <span class="method-start">12372 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser([TestResult name=verifyLoginPageWithMultipleUsersTest status=SUCCESS method=LoginPageTest.verifyLogi...)</span>
-                <span class="method-start">13760 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">14044 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginPageWithMultipleUsersTest(performance_glitch_user, secret_sauce)</span>
-                <span class="method-start">16009 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser([TestResult name=verifyLoginPageWithMultipleUsersTest status=SUCCESS method=LoginPageTest.verifyLogi...)</span>
-                <span class="method-start">22765 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">22994 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginPageWithMultipleUsersTest(error_user, secret_sauce)</span>
-                <span class="method-start">25499 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser([TestResult name=verifyLoginPageWithMultipleUsersTest status=SUCCESS method=LoginPageTest.verifyLogi...)</span>
-                <span class="method-start">26358 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">26619 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginPageWithMultipleUsersTest(visual_user, secret_sauce)</span>
-                <span class="method-start">30353 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser([TestResult name=verifyLoginPageWithMultipleUsersTest status=SUCCESS method=LoginPageTest.verifyLogi...)</span>
-                <span class="method-start">30826 ms</span>
+                <span class="method-name">closeBrowser([TestResult name=verifySubtoTotalabelTest status=SUCCESS method=CheckoutStepTwoTest.verifySubtoTotal...)</span>
+                <span class="method-start">13418 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

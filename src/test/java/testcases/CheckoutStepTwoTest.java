@@ -82,24 +82,24 @@ public class CheckoutStepTwoTest extends TestBase{
 	}
 	@Test
 	public void verifySubtoTotalabelTest() {
-		String expTxt="Item total: $39.98";
+		String expTxt="Item total: $129.94";
 		String actTxt=checkoutStepTwo.verifySubtoTotalabel();
 		Assert.assertEquals(expTxt, actTxt);
-		Reporter.log("Item total: $39.98 is present= " + actTxt);
+		Reporter.log("Item total: $129.94 is present= " + actTxt);
 	}
 	@Test
 	public void verifyTaxLabelTest() {
-		String expTxt="Tax: $3.20";
+		String expTxt="Tax: $10.40";
 		String actTxt=checkoutStepTwo.verifyTaxLabel();
 		Assert.assertEquals(expTxt, actTxt);
-		Reporter.log("Tax: $3.20 is present= " + actTxt);
+		Reporter.log("Tax: $10.40 is present= " + actTxt);
 	}
 	@Test
 	public void verifyTotalLabelTest() {
-		String expTxt="Total: $43.18";
+		String expTxt="Total: $140.34";
 		String actTxt=checkoutStepTwo.verifyTotalLabel();
 		Assert.assertEquals(expTxt, actTxt);
-		Reporter.log("Total: $43.18 is present= " + actTxt);
+		Reporter.log("Total: $140.34 is present= " + actTxt);
 	}
 	@Test
 	public void verifyCancelBtnTxtTest() {
