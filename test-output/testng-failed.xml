@@ -6,7 +6,7 @@
       <class name="testcases.LoginPageTest">
         <methods>
           <include name="closeBrowser"/>
-          <include name="verifyLoginPageWithMultipleUsersTest"/>
+          <include name="verifyLoginPageWithMultipleUsersTest" invocation-numbers="1"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcases.LoginPageTest -->

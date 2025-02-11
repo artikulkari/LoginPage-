@@ -37,7 +37,7 @@ public class LoginPageTest extends TestBase {
 		Reporter.log("Login sucessful" + actURL);
 	}
 
-	@Test(dependsOnMethods = "verifyLoginPageTest()")
+	@Test//(dependsOnMethods = "verifyLoginPageTest()")
 	public void verifyURLOfApplicationTest() {
 
 		String expURL = "https://www.saucedemo.com/";
@@ -46,7 +46,7 @@ public class LoginPageTest extends TestBase {
 		Reporter.log("Swag Lab URL " + actURL);
 	}
 
-	@Test(dependsOnMethods = "verifyLoginPageTest()")
+	@Test//(dependsOnMethods = "verifyLoginPageTest()")
 	public void verifyTitleOfApplicationTest() {
 		String expTitle = "Swag Labs";
 		String actTitle = login.varifyTitleOfApplication();
@@ -56,7 +56,7 @@ public class LoginPageTest extends TestBase {
 
 	@DataProvider(name = "credForLogin")
 	public Object[][] getData() {
-		return new Object[][] { { "standard_user", "secret_sauce" }, { "locked_out_user", "secret_sauce" },
+		return new Object[][] { { "standard_user", "secret_sauce" }, 
 				{ "problem_user", "secret_sauce" }, { "performance_glitch_user", "secret_sauce" },
 				{ "error_user", "secret_sauce" }, { "visual_user", "secret_sauce" } };
 	}

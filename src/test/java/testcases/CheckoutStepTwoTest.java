@@ -104,7 +104,7 @@ public class CheckoutStepTwoTest extends TestBase{
 	@Test
 	public void verifyCancelBtnTxtTest() {
 		String expTxt="Cancel";
-		String actTxt=checkoutStepTwo.verifyTotalLabel();
+		String actTxt=checkoutStepTwo.verifyCancelBtnTxt();
 		Assert.assertEquals(expTxt, actTxt);
 		Reporter.log("cancel button txt is present= " + actTxt);
 	}
